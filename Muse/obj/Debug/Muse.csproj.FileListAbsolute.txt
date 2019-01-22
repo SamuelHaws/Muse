@@ -1,0 +1,14 @@
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\serious\Muse\Muse\bin\Debug\Muse.exe.config
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\serious\Muse\Muse\obj\Debug\Muse.csprojResolveAssemblyReference.cache
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\serious\Muse\Muse\obj\Debug\MainWindow.g.cs
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\serious\Muse\Muse\obj\Debug\App.g.cs
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\serious\Muse\Muse\obj\Debug\Muse_MarkupCompile.cache
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\serious\Muse\Muse\obj\Debug\Muse_MarkupCompile.lref
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\serious\Muse\Muse\bin\Debug\Muse.exe
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\serious\Muse\Muse\bin\Debug\Muse.pdb
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\serious\Muse\Muse\obj\Debug\MainWindow.baml
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\serious\Muse\Muse\obj\Debug\Muse.g.resources
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\serious\Muse\Muse\obj\Debug\Muse.Properties.Resources.resources
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\serious\Muse\Muse\obj\Debug\Muse.csproj.GenerateResource.Cache
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\serious\Muse\Muse\obj\Debug\Muse.exe
+C:\Users\Sam\Documents\Visual Studio 2015\Projects\serious\Muse\Muse\obj\Debug\Muse.pdb

@@ -1,0 +1,41 @@
+﻿<Window x:Class="Muse.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Muse"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="480" Width="618.868" Background="#FFA42525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="103*"/>
+            <ColumnDefinition Width="223*"/>
+            <ColumnDefinition Width="67*"/>
+            <ColumnDefinition Width="218*"/>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="0*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="textBox" Grid.Column="1" HorizontalAlignment="Left" Height="406" Margin="186,33,0,0" TextWrapping="Wrap" Text="Your music will appear here..." VerticalAlignment="Top" Width="312" TextChanged="textBox_TextChanged" Grid.ColumnSpan="3"/>
+        <Button x:Name="button" Content="Generate!" HorizontalAlignment="Left" Margin="66,333,0,0" VerticalAlignment="Top" Width="75" Click="button_Click" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="47" Margin="39,136,0,0" TextWrapping="Wrap" Text="50" VerticalAlignment="Top" Width="139" Grid.ColumnSpan="2"/>
+        <Label x:Name="label" Grid.ColumnSpan="2" Content="Enter music length in number&#xD;&#xA; of notes below:&#xD;&#xA;" HorizontalAlignment="Left" Height="49" Margin="19,82,0,0" VerticalAlignment="Top" Width="239" RenderTransformOrigin="0.5,0.5" FontSize="16" FontWeight="Bold"/>
+        <TextBox x:Name="textBox1_Copy" HorizontalAlignment="Left" Height="47" Margin="39,266,0,0" TextWrapping="Wrap" Text="50" VerticalAlignment="Top" Width="139" Grid.ColumnSpan="2"/>
+        <Label x:Name="label_Copy" Grid.ColumnSpan="2" Content="Enter delay in milliseconds&#xD;&#xA; below:&#xA;" HorizontalAlignment="Left" Height="49" Margin="19,212,0,0" VerticalAlignment="Top" Width="239" RenderTransformOrigin="0.5,0.5" FontSize="16" FontWeight="Bold"/>
+        <Button x:Name="button1" Content="Start" HorizontalAlignment="Left" Margin="66,368,0,0" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2" Click="button1_Click"/>
+        <Button x:Name="button2" Content="Stop" HorizontalAlignment="Left" Margin="66,403,0,0" VerticalAlignment="Top" Width="75" Grid.ColumnSpan="2" Click="button2_Click"/>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Height="21" Margin="39,39,0,0" VerticalAlignment="Top" Width="114" Grid.ColumnSpan="2" SelectionChanged="comboBox_SelectionChanged">
+            <ComboBoxItem Content="C major"/>
+            <ComboBoxItem Content="C minor"/>
+        </ComboBox>
+        <Label x:Name="label_Copy1" Grid.ColumnSpan="2" Content="Select key below:&#xA;" HorizontalAlignment="Left" Height="29" Margin="19,9,0,0" VerticalAlignment="Top" Width="239" RenderTransformOrigin="0.5,0.5" FontSize="16" FontWeight="Bold"/>
+        <Label x:Name="label_Copy2" Grid.ColumnSpan="2" Content="                     Muse&#xA;" HorizontalAlignment="Left" Height="29" Margin="46,4,0,0" VerticalAlignment="Top" Width="239" RenderTransformOrigin="0.5,0.5" FontSize="16" FontWeight="Bold" Grid.Column="2">
+            <Label.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FFA42525" Offset="0.876"/>
+                    <GradientStop Color="White"/>
+                </RadialGradientBrush>
+            </Label.Background>
+        </Label>
+
+    </Grid>
+</Window>
